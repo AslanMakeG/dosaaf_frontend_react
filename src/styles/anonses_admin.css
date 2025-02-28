@@ -1,0 +1,241 @@
+.main-cnt-anons-admin {
+    width: 90%;
+    max-width: 1400px;
+}
+
+.title-add-anons {
+    font-size: 20px;
+}
+
+.btn-admin-anons {
+    background: #1A4BB3;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+}
+
+.anons-card {
+    background-color: #FFFFFF;
+}
+
+.titles-anons-card {
+    color: #1A4BB3;
+    font-size: 18px;
+
+}
+
+.name-anons-card {
+    font-size: 18px;
+    -webkit-line-clamp: 2;
+    /* Число отображаемых строк */
+    display: -webkit-box;
+    /* Включаем флексбоксы */
+    -webkit-box-orient: vertical;
+    /* Вертикальная ориентация */
+    overflow: hidden;
+    /* Обрезаем все, что не помещается в область */
+}
+
+.format-anons-photo {
+    object-fit: cover;
+    border-radius: 15px;
+    height: 250px;
+}
+
+.descriptoin-admin-anons {
+    margin: 0;
+    /* Убираем внешний отступ */
+    -webkit-line-clamp: 4;
+    /* Число отображаемых строк */
+    display: -webkit-box;
+    /* Включаем флексбоксы */
+    -webkit-box-orient: vertical;
+    /* Вертикальная ориентация */
+    overflow: hidden;
+    /* Обрезаем все, что не помещается в область */
+
+
+}
+
+.cnt-admin-anons-descroption {
+    height: 100px;
+}
+
+.anons-modal-title {
+    color: #1A4BB3;
+}
+
+.anons-name-control-input {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #1A4BB3;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.anons-name-control-tetxarea {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #1A4BB3;
+    border-radius: 10px;
+    height: 150px;
+}
+
+.form-input-logo-anons {
+    width: 100%;
+    height: 230px;
+    background-color: #EAE9EF;
+    position: relative;
+    border: 2px dashed #1A4BB3;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.photo-admin-anons {
+    width: 100%;
+    /* Гибкость – наше всё */
+    height: 100%;
+    /* Доверьтесь автоматике */
+    object-fit: contain;
+    /* Исключаем искажения пропорций */
+}
+
+.name-photo-anons {
+    font-size: 18px;
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    /* Запрещаем перенос строк */
+    overflow: hidden;
+    /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis;
+    /* Добавляем многоточие */
+}
+
+.cnt-name-file-anons {
+    width: 70%;
+}
+
+.icon_image_anons {
+    font-size: 25px;
+    color: #1A4BB3;
+}
+
+.icon_trash_anons {
+    cursor: pointer;
+    font-size: 25px;
+    color: #DA3232;
+}
+
+.btn-edit-anons {
+    width: 45%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #1A4BB3;
+    color: #1A4BB3;
+
+    &:hover {
+        background-color: #1A4BB3;
+        border: 1.5px solid #1A4BB3;
+        color: #FFFFFF;
+    }
+}
+
+.btn-delete-anons {
+    width: 45%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #DA3232;
+    color: #DA3232;
+
+    &:hover {
+        background-color: #DA3232;
+        border: 1.5px solid #DA3232;
+        color: #FFFFFF;
+    }
+}
+
+.no-admin-photo-anons {
+    width: 100%;
+    height: 250px;
+    background-color: #EAE9EF;
+    border-radius: 15px;
+}
+
+.ban-icon {
+    font-size: 30px;
+}
+
+.no-admin-photo-text {
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .titles-anons-card {
+        font-size: 16px;
+    }
+
+    .name-anons-card {
+        font-size: 16px;
+    }
+
+    .format-anons-photo {
+        height: 200px;
+    }
+
+    .descriptoin-admin-anons {
+        font-size: 14px;
+    }
+
+    .btn-edit-anons {
+        font-size: 14px;
+    }
+    
+    .btn-delete-anons {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+    .titles-anons-card {
+        font-size: 14px;
+    }
+
+    .name-anons-card {
+        font-size: 14px;
+    }
+
+    .format-anons-photo {
+        height: 150px;
+    }
+
+    .descriptoin-admin-anons {
+        font-size: 12px;
+    }
+
+    .btn-edit-anons {
+        font-size: 12px;
+    }
+    
+    .btn-delete-anons {
+        font-size: 12px;
+    }
+    .cnt-btn-anonse-admin{
+        margin-top: 10px !important;
+    }
+
+    .cnt-admin-anons-descroption {
+        height: 80px;
+    }
+}
+
+@media (max-width: 460px) {
+    .anons-card {
+        background-color: #FFFFFF;
+        padding: 15px !important;
+    }
+
+    .format-anons-photo {
+        height: 120px;
+    }
+}

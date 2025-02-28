@@ -1,0 +1,245 @@
+.main-ctn-twst-passing {
+    width: 90%;
+    max-width: 1400px;
+}
+
+.test-passing-question {
+
+    background: #FFFFFF;
+}
+
+.test-passion-variant-answer {
+    background-color: #EAE9EF;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.test-passing-name-test {
+    font-size: 22px;
+    color: #1A4BB3;
+    font-weight: 600;
+}
+
+.all-count-question-title {
+    font-size: 18px;
+}
+
+.title-question-number {
+    font-size: 18px;
+}
+
+.test-passing-name-question {
+    font-size: 20px;
+    color: #1A4BB3;
+    font-weight: 500;
+}
+
+.count-select-answers-title {
+    font-size: 16px;
+}
+
+.test-passing-variant-answer {
+    font-size: 18px;
+}
+
+.test-passing-text-input {
+    width: 90%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #1A4BB3;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.btn-finish-test-attempt {
+    height: 40px;
+    width: 230px;
+    background-color: #1A4BB3;
+    border: none;
+    border-radius: 10px;
+}
+
+.correct-answer-icon{
+    color: #247719;
+    font-size: 26px;
+    -webkit-text-stroke: 0.3px;
+}
+
+.correct-answer-text{
+    color: #247719;
+    font-size: 18px;
+}
+
+.no-correct-answer-icon{
+    color: #DA3232;
+    font-size: 26px;
+    -webkit-text-stroke: 0.3px;
+}
+
+.no-correct-answer-text{
+    color: #DA3232;
+    font-size: 18px;
+}
+
+@media (max-width: 1199.9px) {
+    .test-passion-variant-answer {
+        width: 100%;
+    }
+
+    .test-passing-text-input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .test-passing-name-test {
+        font-size: 20px;
+    }
+
+    .all-count-question-title {
+        font-size: 16px;
+    }
+
+    .title-question-number {
+        font-size: 16px;
+    }
+
+    .test-passing-name-question {
+        font-size: 18px;
+    }
+
+    .count-select-answers-title {
+        font-size: 14px;
+    }
+
+    .test-passing-variant-answer {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .test-passing-name-test {
+        font-size: 18px;
+    }
+
+    .all-count-question-title {
+        font-size: 14px;
+    }
+
+    .title-question-number {
+        font-size: 14px;
+    }
+
+    .test-passing-name-question {
+        font-size: 16px;
+    }
+
+    .count-select-answers-title {
+        font-size: 14px;
+    }
+
+    .test-passing-variant-answer {
+        font-size: 14px;
+    }
+
+    .test-passing-text-input {
+        width: 100%;
+        font-size: 14px;
+        width: 90%;
+        height: 35px;
+    }
+
+    .btn-finish-test-attempt {
+        height: 35px;
+        width: 200px;
+        font-size: 14px;
+
+    }
+    .correct-answer-icon{
+        font-size: 20px;
+    }
+    
+    .correct-answer-text{
+        font-size: 14px;
+    }
+    
+    .no-correct-answer-icon{
+        font-size: 20px;
+    }
+    
+    .no-correct-answer-text{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 550px) {
+    .test-passing-question {
+        padding: 15px !important;
+    }
+
+    .test-passing-name-question {
+        margin-top: 5px !important;
+    }
+
+    .count-select-answers-title {
+        margin-top: 4px !important;
+    }
+
+    .test-passion-variant-answer {
+        padding: 5px !important;
+    }
+}
+
+@media (max-width: 460px) {
+    .test-passing-name-test {
+        font-size: 14px;
+    }
+
+    .all-count-question-title {
+        font-size: 14px;
+    }
+
+    .title-question-number {
+        font-size: 10px;
+    }
+
+    .test-passing-name-question {
+        font-size: 12px;
+    }
+
+    .count-select-answers-title {
+        font-size: 10px;
+    }
+
+    .test-passing-variant-answer {
+        font-size: 12px;
+    }
+
+    .test-passing-text-input {
+        width: 100%;
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .btn-finish-test-attempt {
+        height: 30px;
+        width: 170px;
+        font-size: 12px;
+
+    }
+
+    .correct-answer-icon{
+        font-size: 18px;
+    }
+    
+    .correct-answer-text{
+        font-size: 12px;
+    }
+    
+    .no-correct-answer-icon{
+        font-size: 18px;
+    }
+    
+    .no-correct-answer-text{
+        font-size: 12px;
+    }
+}

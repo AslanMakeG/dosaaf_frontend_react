@@ -1,0 +1,443 @@
+.main-cnt-news-admin {
+    width: 90%;
+    max-width: 1400px;
+}
+
+.btn-admin-news {
+    background: #1A4BB3;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: 180px;
+}
+
+.container-news {
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.admin-card-new {
+    background: #FFFFFF;
+    width: 100%;
+}
+
+.btn-admin-new-edit {
+    border-radius: 10px;
+    height: 37px;
+    width: 32%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #1A4BB3;
+    color: #1A4BB3;
+
+    &:hover {
+        background-color: #1A4BB3;
+        border: 1.5px solid #1A4BB3;
+        color: #FFFFFF;
+    }
+}
+
+.btn-admin-new-delete {
+    border-radius: 10px;
+    height: 37px;
+    width: 32%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #DA3232;
+    color: #DA3232;
+
+    &:hover {
+        background-color: #DA3232;
+        border: 1.5px solid #DA3232;
+        color: #FFFFFF;
+    }
+}
+
+
+.btn_form_new {
+    width: 150px;
+    background: #1A4BB3;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.new-control-input {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #1A4BB3;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.btn-download-photo {
+    color: #FFFFFF;
+    background-color: #1A4BB3;
+    border: 1.5px solid #1A4BB3;
+    border-radius: 10px;
+    height: 45px;
+
+}
+
+.new-description-input {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #1A4BB3;
+    border-radius: 10px;
+    height: 150px;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        width: 15px;
+        background: #EAE9EF;
+        border-radius: 15px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #1A4BB3;
+        height: 20px;
+    }
+
+
+}
+
+
+.container-phonos-links {
+    height: 250px;
+    background: #EAE9EF;
+    border: 2px solid #1A4BB3;
+    border-radius: 15px;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        width: 15px;
+        border-radius: 20px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #1A4BB3;
+        height: 20px;
+    }
+
+}
+
+.link-photo-for-news {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 100px;
+
+}
+
+.photo-format {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.del-photo {
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: #DA3232;
+    border: 2px solid #DA3232;
+    font-size: 20px;
+
+    &:hover {
+        background-color: #DA3232;
+        color: #FFFFFF;
+        border: 2px solid #DA3232;
+    }
+}
+
+.cnt-admin-name-new {
+    height: 95px;
+}
+
+.admin-name-new {
+    font-size: 18px;
+    -webkit-line-clamp: 3;
+    /* Число отображаемых строк */
+    display: -webkit-box;
+    /* Включаем флексбоксы */
+    -webkit-box-orient: vertical;
+    /* Вертикальная ориентация */
+    overflow: hidden;
+    /* Обрезаем все, что не помещается в область */
+}
+
+.name-count-photo {
+    font-size: 18px;
+}
+
+.title-add-new {
+    font-size: 20px;
+
+}
+
+.btn-admin-new-archive {
+    border-radius: 10px;
+    height: 37px;
+    width: 32%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #000000;
+    color: #000000;
+
+    &:hover {
+        background-color: #EAE9EF;
+        color: #000000;
+        border: 1.5px solid #000000;
+    }
+}
+
+.news-modal-title {
+    color: #1A4BB3;
+}
+
+.link-to-photo {
+
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.cnt-for-link {
+    width: 65%;
+}
+
+.link-photo-number {
+    font-size: 18px;
+}
+
+@media (max-width: 991.9px) {
+    .link-photo-for-news {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        height: 70px;
+    }
+
+    .photo-format {
+        object-fit: cover;
+        border-radius: 10px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .photo_number_new {
+        font-size: 12px;
+    }
+
+    .link-to-photo {
+        font-size: 12px;
+    }
+
+    .cnt-for-link {
+        width: 55%;
+    }
+
+    .del-photo {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+}
+
+
+@media (max-width: 850px) {
+    .admin-name-new {
+        font-size: 16px;
+        margin-bottom: 15px !important;
+    }
+
+    .btn-admin-new-archive {
+        font-size: 14px;
+    }
+
+    .btn-admin-new-edit {
+        font-size: 14px;
+    }
+
+    .btn-admin-new-delete {
+        font-size: 14px;
+    }
+
+    .name-count-photo {
+        font-size: 14px;
+    }
+
+    .cnt-admin-name-new {
+        height: auto !important;
+    }
+
+    .new-control-input {
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .btn-download-photo {
+        font-size: 14px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .admin-name-new {
+        font-size: 14px;
+    }
+
+    .name-count-photo {
+        font-size: 12px;
+    }
+
+    .admin-card-new {
+        background: #FFFFFF;
+        width: 100%;
+        padding: 20px !important;
+    }
+
+    .btn-admin-new-archive {
+        font-size: 12px;
+        height: 32px;
+        padding: 2px !important;
+    }
+
+    .btn-admin-new-edit {
+        font-size: 12px;
+        height: 32px;
+        padding: 2px !important;
+    }
+
+    .btn-admin-new-delete {
+        font-size: 12px;
+        height: 32px;
+        padding: 2px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .link-photo-for-news {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        height: 60px;
+        padding: 5px;
+    }
+
+    .photo-format {
+        object-fit: cover;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        padding: 1px !important;
+    }
+
+    .photo_number_new {
+        font-size: 10px;
+        padding: 1px !important;
+    }
+
+    .link-to-photo {
+        font-size: 10px;
+    }
+
+    .cnt-for-link {
+        width: 60%;
+    }
+
+    .del-photo {
+        width: 25px;
+        height: 25px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 460px) {
+    .admin-name-new {
+        font-size: 12px;
+    }
+
+    .name-count-photo {
+        font-size: 12px;
+    }
+
+    .admin-card-new {
+        background: #FFFFFF;
+        width: 100%;
+        padding-left: 7px !important;
+        padding-right: 7px !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .btn-admin-new-archive {
+        font-size: 10.5px;
+        height: 32px;
+        padding: 1px !important;
+    }
+
+    .btn-admin-new-edit {
+        font-size: 11px;
+        height: 32px;
+        padding: 1px !important;
+    }
+
+    .btn-admin-new-delete {
+        font-size: 11px;
+        height: 32px;
+        padding: 1px !important;
+    }
+
+    .new-control-input {
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .btn-download-photo {
+        font-size: 14px;
+        height: 40px;
+    }
+
+}
+
+@media (max-width: 370px) {
+    .link-photo-for-news {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        height: 60px;
+        padding: 2px;
+    }
+
+    .photo-format {
+        object-fit: cover;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        padding: 1px !important;
+    }
+
+    .photo_number_new {
+        font-size: 10px;
+        padding: 1px !important;
+    }
+
+    .link-to-photo {
+        font-size: 10px;
+    }
+
+    .cnt-for-link {
+        width: 40%;
+        margin-left: 0 !important;
+    }
+
+    .del-photo {
+        width: 25px;
+        height: 25px;
+        font-size: 15px;
+    }
+}

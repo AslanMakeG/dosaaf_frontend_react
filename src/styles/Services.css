@@ -1,0 +1,347 @@
+.main-service-cnt {
+    width: 90%;
+    max-width: 1400px;
+}
+
+.service-cards {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    height: 470px;
+
+}
+
+.btn-service {
+    background: #1A4BB3;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 180px;
+
+}
+
+.border-price {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #F2F3F7;
+    height: 120px;
+}
+
+.request-control-input {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #1A4BB3;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.btn_form_reguest {
+    width: 200px;
+    background: #1A4BB3;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.service-title {
+    font-size: 22px;
+    color: #1A4BB3;
+}
+
+.section-title {
+    font-size: 24px;
+}
+
+.cnt-service-title {
+    height: 80px;
+}
+
+.service-description {
+    height: 90px;
+}
+
+.stoimost {
+    font-size: 22px;
+}
+
+.price-value {
+    font-size: 22px;
+    color: #1A4BB3;
+}
+
+.wallet-icon {
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 50px;
+}
+
+.wallet {
+    font-size: 22px;
+    background-color: #FFFFFF;
+    border-radius: 20%;
+}
+
+.sevice-modal-title {
+    color: #1A4BB3;
+}
+
+@media (max-width: 1000px) {
+    .service-cards {
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        height: 450px;
+
+    }
+
+    .border-price {
+        width: 100%;
+        border-radius: 10px;
+        background-color: #F2F3F7;
+        height: 100px;
+    }
+
+    .service-title {
+        font-size: 18px;
+        color: #1A4BB3;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .stoimost {
+        font-size: 20px;
+    }
+
+    .price-value {
+        font-size: 20px;
+        color: #1A4BB3;
+    }
+
+    .wallet {
+        font-size: 20px;
+        background-color: #FFFFFF;
+        border-radius: 20%;
+    }
+
+    .description-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767.9px) {
+    .service-cards {
+        width: 70%;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        height: auto !important;
+
+    }
+
+    .border-price {
+        height: 100px;
+        margin-top: 20px !important;
+    }
+
+    .cnt-service-title {
+        height: auto !important;
+    }
+
+    .service-description {
+        height: auto !important;
+    }
+
+    .service-title {
+        font-size: 20px;
+        color: #1A4BB3;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .stoimost {
+        font-size: 20px;
+    }
+
+    .price-value {
+        font-size: 22px;
+        color: #1A4BB3;
+    }
+
+    .wallet {
+        font-size: 24px;
+        background-color: #FFFFFF;
+        border-radius: 20%;
+    }
+
+    .description-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .service-cards {
+        width: 80%;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        height: auto !important;
+
+    }
+
+    .border-price {
+        height: 90px;
+        margin-top: 20px !important;
+    }
+
+    .cnt-service-title {
+        height: auto !important;
+    }
+
+    .service-description {
+        height: auto !important;
+    }
+
+    .service-title {
+        font-size: 18px;
+        color: #1A4BB3;
+    }
+
+    .section-title {
+        font-size: 18px;
+        margin-top: 30px !important;
+    }
+
+    .stoimost {
+        font-size: 18px;
+    }
+
+    .price-value {
+        font-size: 18px;
+        color: #1A4BB3;
+    }
+
+    .wallet {
+        font-size: 20px;
+        background-color: #FFFFFF;
+        border-radius: 20%;
+    }
+
+    .description-text {
+        font-size: 14px;
+    }
+
+    .btn-service {
+        height: 35px;
+        width: 150px;
+        font-size: 14px;
+        margin-top: 35px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .service-cards {
+        width: 90%;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        height: auto !important;
+
+    }
+
+    .border-price {
+        height: 90px;
+        margin-top: 20px !important;
+    }
+
+    .cnt-service-title {
+        height: auto !important;
+    }
+
+    .service-description {
+        height: auto !important;
+    }
+
+    .service-title {
+        font-size: 16px;
+        color: #1A4BB3;
+    }
+
+    .section-title {
+        font-size: 16px;
+    }
+
+    .stoimost {
+        font-size: 16px;
+    }
+
+    .price-value {
+        font-size: 16px;
+        color: #1A4BB3;
+    }
+
+    .wallet {
+        font-size: 18px;
+        background-color: #FFFFFF;
+        border-radius: 20%;
+    }
+
+    .description-text {
+        font-size: 14px;
+    }
+    .btn-service {
+        height: 32px;
+        width: 120px;
+        font-size: 12px;
+        margin-top: 30px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .service-cards {
+        width: 100%;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        height: auto !important;
+
+    }
+
+    .border-price {
+        height: 80px;
+        margin-top: 20px !important;
+    }
+
+    .cnt-service-title {
+        height: auto !important;
+    }
+
+    .service-description {
+        height: auto !important;
+    }
+
+    .service-title {
+        font-size: 14px;
+        color: #1A4BB3;
+    }
+
+    .section-title {
+        font-size: 16px;
+    }
+
+    .stoimost {
+        font-size: 14px;
+    }
+
+    .price-value {
+        font-size: 14px;
+        color: #1A4BB3;
+    }
+
+    .wallet {
+        font-size: 16px;
+        background-color: #FFFFFF;
+        border-radius: 20%;
+    }
+
+    .description-text {
+        font-size: 12px;
+    }
+}

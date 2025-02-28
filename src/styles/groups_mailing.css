@@ -1,0 +1,348 @@
+.main-cnt-group-mailing {
+    width: 90%;
+    max-width: 1400px;
+}
+
+.cnt-group-mailing {
+    background: #FFFFFF;
+}
+
+.edit_group_mailing {
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1.5px solid #1A4BB3;
+    color: #1A4BB3;
+
+    &:hover {
+        background-color: #1A4BB3;
+        border: 1.5px solid #1A4BB3;
+        color: #FFFFFF;
+    }
+}
+
+.delete_group_mailing {
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1.5px solid #DA3232;
+    color: #DA3232;
+
+    &:hover {
+        background-color: #DA3232;
+        border: 1.5px solid #DA3232;
+        color: #FFFFFF;
+    }
+}
+
+.cnt-control-width-name-email {
+    width: 90%;
+}
+
+.title-group-mailing-name {
+    font-size: 20px;
+    color: #1A4BB3;
+    font-weight: 800;
+}
+
+.cnt-group-mailing-position {
+    background-color: #EAE9EF;
+}
+
+.group-position-icon {
+    color: #1A4BB3;
+    font-size: 18px;
+}
+
+.group-position-title {
+    font-size: 18px;
+
+}
+
+.group-position-name-email {
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    /* Запрещаем перенос строк */
+    overflow: hidden;
+    /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis;
+    /* Добавляем многоточие */
+    cursor: pointer;
+}
+
+.btn-edit-group-position {
+    width: 45%;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1.5px solid #1A4BB3;
+    color: #1A4BB3;
+
+    &:hover {
+        background-color: #1A4BB3;
+        border: 1.5px solid #1A4BB3;
+        color: #FFFFFF;
+    }
+}
+
+.btn-delete-group-position {
+    width: 45%;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1.5px solid #DA3232;
+    color: #DA3232;
+
+    &:hover {
+        background-color: #DA3232;
+        border: 1.5px solid #DA3232;
+        color: #FFFFFF;
+    }
+}
+
+.btn-plus-group-position {
+    background: #1A4BB3;
+    color: #FFFFFF;
+    border: 2px solid #1A4BB3;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 35px;
+    text-align: center;
+}
+
+.input-modal-group-mailing {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #1A4BB3;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.btn-modal-group-mailing-save {
+    background: #1A4BB3;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.modal-group-mailing-title {
+    color: #1A4BB3;
+}
+
+.icon-in-button-group-mailing {
+    display: none;
+}
+
+
+@media (max-width: 850px) {
+    .title-group-mailing-name {
+        font-size: 18px;
+    }
+
+    .group-position-icon {
+        font-size: 16px;
+    }
+
+    .group-position-title {
+        font-size: 16px;
+
+    }
+
+    .group-position-name-email {
+        font-size: 16px;
+    }
+
+    .btn-plus-group-position {
+        width: 40px;
+        height: 40px;
+        font-size: 26px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .title-group-mailing-name {
+        font-size: 16px;
+    }
+
+    .group-position-icon {
+        font-size: 16px;
+    }
+
+    .group-position-title {
+        font-size: 16px;
+
+    }
+
+    .group-position-name-email {
+        font-size: 14px;
+    }
+
+    .btn-edit-group-position {
+        width: 45%;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .btn-delete-group-position {
+        width: 45%;
+        height: 35px;
+        font-size: 14px;
+
+    }
+
+    .edit_group_mailing {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .delete_group_mailing {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .add-position-group-title{
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .title-group-mailing-name {
+        font-size: 14px;
+    }
+
+    .group-position-icon {
+        font-size: 12px;
+    }
+
+    .group-position-title {
+        font-size: 12px;
+
+    }
+
+    .group-position-name-email {
+        font-size: 12x;
+    }
+
+    .btn-edit-group-position {
+        width: 45%;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .btn-delete-group-position {
+        width: 45%;
+        height: 30px;
+        font-size: 12px;
+
+    }
+
+    .edit_group_mailing {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .delete_group_mailing {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .btn-plus-group-position {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .add-position-group-title{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 460px) {
+    .title-group-mailing-name {
+        font-size: 12px;
+    }
+
+    .group-position-icon {
+        font-size: 10px;
+    }
+
+    .group-position-title {
+        font-size: 10px;
+
+    }
+
+    .group-position-name-email {
+        font-size: 10px;
+    }
+
+    .btn-edit-group-position {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .btn-delete-group-position {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+        border-radius: 5px;
+
+    }
+
+    .edit_group_mailing {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+
+    .delete_group_mailing {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+
+    .icon-in-button-group-mailing {
+        display: contents;
+    }
+
+    .text-in-button-group-mailing {
+        display: none;
+    }
+
+    .cnt-group-mailing {
+        padding: 10px !important;
+        margin-top: 10px !important;
+    }
+
+    .cnt-group-mailing-position {
+        background-color: #EAE9EF;
+        padding: 10px !important;
+        margin-top: 10px !important;
+    }
+
+    .cnt-name-email-group {
+        margin-top: 3px !important;
+    }
+
+    .cnt-btn-edit-delete-group-position {
+        margin-top: 5px !important;
+    }
+
+    .add-position-group-title{
+        font-size: 10px;
+        margin-left: 10px !important;
+    }
+}

@@ -1,0 +1,494 @@
+.main-cnt-my-page {
+    width: 90%;
+    max-width: 1400px;
+}
+
+.info_user {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+.icon-name-user {
+    color: #1A4BB3;
+    font-size: 24px;
+    width: 40px;
+    -webkit-text-stroke: 0.3px;
+}
+
+.icon-time-user {
+    width: 40px;
+    font-size: 20px;
+}
+
+.title-name-user {
+    font-size: 20px;
+    color: #1A4BB3;
+    font-weight: 800;
+    max-width: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    /* Запрещаем перенос строк */
+    overflow: hidden;
+    /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis;
+    /* Добавляем многоточие */
+    cursor: pointer;
+}
+
+.time_registration {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+.cnt-last-request {
+    width: 100%;
+    background: #FFFFFF;
+    height: 100%;
+    border-radius: 10px;
+    min-height: 125px;
+}
+
+.icon-status-last-request {
+    color: #1A4BB3;
+    font-size: 22px;
+    -webkit-text-stroke: 0.3px;
+    width: 40px;
+}
+
+.title-status-last-request {
+    color: #1A4BB3;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.icon-user-no-request {
+    font-size: 20px;
+    color: grey;
+}
+
+.text-user-no-request {
+    font-size: 16px;
+    color: grey;
+}
+
+.last-reques-name-service {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.check-last-request-icon {
+    font-size: 20px;
+    color: #247719;
+}
+
+.check-last-request-text {
+    font-size: 16px;
+    color: #247719;
+    font-weight: 800;
+}
+
+.cancel-last-request-icon {
+    font-size: 20px;
+    color: #DA3232;
+}
+
+.cancel-last-request-text {
+    font-size: 16px;
+    color: #DA3232;
+    font-weight: 800;
+}
+
+.wait-last-request-icon {
+    font-size: 20px;
+    color: #1A4BB3;
+}
+
+.wait-last-request-text {
+    font-size: 16px;
+    color: #1A4BB3;
+    font-weight: 800;
+}
+
+.hrfor {
+    width: 100%;
+}
+
+.dinamic-tests {
+    width: 100%;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+
+.dinamic-tests-no-passing {
+    width: 100%;
+    border-radius: 10px;
+    background: #FFFFFF;
+    height: 300px;
+}
+
+.icon-dinamic-passing-tests {
+    font-size: 22px;
+    width: 40px;
+    font-weight: 800;
+    color: #1A4BB3;
+    -webkit-text-stroke: 0.3px;
+}
+
+.title-dinamic-passing-tests {
+    font-size: 20px;
+    font-weight: 800;
+    color: #1A4BB3;
+}
+
+.text-tests-no-passing {
+    font-size: 16px;
+}
+
+.img-no-passing-test {
+    width: 80px;
+    height: 80px;
+}
+
+.user-name-passing-test {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cnt-dinamic-progress-bar {
+    width: 80%;
+}
+
+.user-dinamic-test-progress .progress-bar {
+    background-color: #1A4BB3;
+    /* Измените на нужный вам цвет заполненной области */
+}
+
+.user-dinamic-test-progress {
+    height: 25px;
+    background-color: #EAE9EF;
+    /* Измените на нужный вам цвет незаполненной области */
+}
+
+.percent-passing-test {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1A4BB3;
+}
+
+@media (max-width: 1199.9px) {
+
+    .info_user {
+        height: auto;
+    }
+
+    .cnt-last-request {
+        margin-top: 20px !important;
+        height: auto;
+    }
+
+    .dinamic-tests {
+        margin-top: 20px !important;
+    }
+
+    .dinamic-tests-no-passing {
+        margin-top: 20px !important;
+
+    }
+}
+
+@media (max-width: 991.9px) {
+    .cnt-one-passing-test {
+        margin-top: 20px !important;
+    }
+
+    .user-dinamic-test-progress {
+        height: 20px;
+    }
+
+    .cnt-user-test-pr-bar {
+        margin-top: 5px !important;
+    }
+
+    .percent-passing-test {
+        font-size: 14px;
+    }
+
+    .cnt-dinamic-progress-bar {
+        width: 75%;
+    }
+
+    .hrfor {
+        margin-bottom: 0px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .icon-name-user {
+        width: 30px;
+        font-size: 20px;
+    }
+
+    .icon-time-user {
+        width: 30px;
+        font-size: 18px;
+    }
+
+    .title-name-user {
+        font-size: 18px;
+    }
+
+    .time_registration {
+        font-size: 14px
+    }
+
+    .icon-status-last-request {
+        font-size: 18px;
+        width: 30px;
+    }
+
+    .title-status-last-request {
+        font-size: 16px;
+    }
+
+    .icon-user-no-request {
+        font-size: 16px;
+    }
+
+    .text-user-no-request {
+        font-size: 14px;
+    }
+
+    .last-reques-name-service {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .check-last-request-icon {
+        font-size: 16px;
+    }
+
+    .check-last-request-text {
+        font-size: 14px;
+    }
+
+    .cancel-last-request-icon {
+        font-size: 16px;
+    }
+
+    .cancel-last-request-text {
+        font-size: 14px;
+    }
+
+    .wait-last-request-icon {
+        font-size: 16px;
+    }
+
+    .wait-last-request-text {
+        font-size: 14px;
+    }
+
+    .icon-dinamic-passing-tests {
+        width: 30px;
+        font-size: 18px;
+    }
+
+    .title-dinamic-passing-tests {
+        font-size: 16px;
+        font-weight: 800;
+        color: #1A4BB3;
+    }
+
+    .text-tests-no-passing {
+        font-size: 15px;
+    }
+
+    .img-no-passing-test {
+        width: 50px;
+        height: 50px;
+    }
+
+    .user-name-passing-test {
+        font-size: 15px;
+    }
+
+    .dinamic-tests {
+        padding: 20px !important;
+    }
+
+    .dinamic-tests-no-passing {
+        padding: 20px !important;
+    }
+
+    .info_user {
+        padding: 20px !important;
+    }
+
+    .cnt-last-request {
+        padding: 20px !important;
+    }
+
+    .hrfor {
+        margin-bottom: 0px !important;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .cnt-one-passing-test {
+        margin-top: 15px !important;
+    }
+
+    .user-dinamic-test-progress {
+        height: 15px;
+    }
+
+    .cnt-user-test-pr-bar {
+        margin-top: 3px !important;
+    }
+
+    .percent-passing-test {
+        font-size: 12px;
+    }
+
+    .cnt-dinamic-progress-bar {
+        width: 75%;
+    }
+
+    .hrfor {
+        margin-bottom: 0px !important;
+    }
+}
+
+@media (max-width: 460px) {
+    .icon-name-user {
+        width: 25px;
+        font-size: 18px;
+    }
+
+    .icon-time-user {
+        width: 25px;
+        font-size: 16px;
+    }
+
+    .title-name-user {
+        font-size: 16px;
+    }
+
+    .time_registration {
+        font-size: 12px
+    }
+
+    .icon-status-last-request {
+        font-size: 16px;
+        width: 25px;
+    }
+
+    .title-status-last-request {
+        font-size: 14px;
+    }
+
+    .icon-user-no-request {
+        font-size: 16px;
+    }
+
+    .text-user-no-request {
+        font-size: 12px;
+    }
+
+    .last-reques-name-service {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .check-last-request-icon {
+        font-size: 16px;
+    }
+
+    .check-last-request-text {
+        font-size: 12px;
+    }
+
+    .cancel-last-request-icon {
+        font-size: 16px;
+    }
+
+    .cancel-last-request-text {
+        font-size: 12px;
+    }
+
+    .wait-last-request-icon {
+        font-size: 16px;
+    }
+
+    .wait-last-request-text {
+        font-size: 12px;
+    }
+
+    .icon-dinamic-passing-tests {
+        width: 30px;
+        font-size: 16px;
+    }
+
+    .title-dinamic-passing-tests {
+        font-size: 14px;
+    }
+
+    .text-tests-no-passing {
+        font-size: 12px;
+    }
+
+    .img-no-passing-test {
+        width: 40px;
+        height: 40px;
+    }
+
+    .user-name-passing-test {
+        font-size: 12px;
+    }
+
+    .dinamic-tests {
+        padding: 15px !important;
+    }
+
+    .dinamic-tests-no-passing {
+        padding: 15px !important;
+    }
+
+    .info_user {
+        padding: 15px !important;
+    }
+
+    .cnt-last-request {
+        padding: 15px !important;
+    }
+
+    .percent-passing-test {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .cnt-one-passing-test {
+        margin-top: 10px !important;
+    }
+
+    .dinamic-tests {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .dinamic-tests-no-passing {
+        padding: 15px !important;
+        height: 220px;
+    }
+
+    .hrfor {
+        margin-top: 10px !important;
+    }
+}
+

@@ -1,0 +1,44 @@
+.btn-admin-add {
+    background: #1A4BB3;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+}
+
+.title-admin-add {
+    font-size: 20px;
+}
+
+@media (max-width: 850px) {
+    .title-admin-add{
+        font-size: 18px;
+    }
+    .btn-admin-add {
+        font-size: 16px;
+        height: 35px;
+        width: 100px;
+    }    
+}
+
+@media (max-width: 600px) {
+    .title-admin-add {
+        font-size: 14px;
+    }
+    .btn-admin-add {
+        font-size: 12px;
+        height: 30px;
+        width: 80px;
+    }  
+}
+
+@media (max-width: 460px) {
+    .title-admin-add{
+        font-size: 12px;
+    }
+    .btn-admin-add{
+        font-size: 10px;
+        height: 25px;
+        width: 70px;
+    }  
+}

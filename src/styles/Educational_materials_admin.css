@@ -1,0 +1,212 @@
+.cnt-main-ed-mat-admin {
+    width: 90%;
+    max-width: 1400px;
+}
+
+.title-add-ed-mat {
+    font-size: 20px;
+}
+
+.btn-admin-ed-mat {
+    background: #1A4BB3;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+}
+
+.admin-material-cnt {
+    background-color: #FFFFFF;
+}
+
+.admin-material-name-icon {
+    width: 80%;
+}
+
+.admin-doc-icon {
+    font-size: 25px;
+}
+
+.admin-name-material {
+    font-size: 18px;
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    /* Запрещаем перенос строк */
+    overflow: hidden;
+    /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis;
+    /* Добавляем многоточие */
+    cursor: pointer;
+}
+
+.admin-materials-btn-edit {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: #1A4BB3;
+    border: 1.5px solid #1A4BB3;
+
+    &:hover {
+        background: #1A4BB3;
+        color: #FFFFFF;
+        border: 1.5px solid #1A4BB3;
+
+    }
+}
+
+.admin-materials-btn-delete {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: #DA3232;
+    border: 1.5px solid #DA3232;
+
+    &:hover {
+        background: #DA3232;
+        color: #FFFFFF;
+        border: 1.5px solid #DA3232;
+
+    }
+}
+
+.ed-mat-name-control-input {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #1A4BB3;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.input-education-file {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 2px solid #1A4BB3;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 991.9px) {
+    .admin-materials-btn-edit {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .admin-materials-btn-delete {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .admin-name-material {
+        font-size: 16px;
+    }
+
+    .admin-doc-icon {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .admin-materials-btn-edit {
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .admin-materials-btn-delete {
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .admin-name-material {
+        font-size: 12px;
+    }
+
+    .admin-doc-icon {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 470px) {
+    .admin-materials-btn-edit {
+        width: 22px;
+        height: 22px;
+        font-size: 10px;
+        padding: 2px !important;
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .admin-materials-btn-delete {
+        width: 22px;
+        height: 22px;
+        font-size: 10px;
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .admin-name-material {
+        font-size: 12px;
+        margin-left: 10px !important;
+    }
+
+    .admin-doc-icon {
+        font-size: 14px;
+    }
+    .admin-material-cnt {
+        background-color: #FFFFFF;
+        padding: 10px !important;
+        margin-top: 10px !important;
+    }
+
+}
+@media (max-width: 350px) {
+    .admin-materials-btn-edit {
+        width: 18px;
+        height: 18px;
+        font-size: 8px;
+        padding: 2px !important;
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .admin-materials-btn-delete {
+        width: 18px;
+        height: 18px;
+        font-size: 8px;
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .admin-name-material {
+        font-size: 10px;
+        margin-left: 5px !important;
+    }
+
+    .admin-doc-icon {
+        font-size: 12px;
+    }
+
+    .admin-material-cnt {
+        background-color: #FFFFFF;
+        padding: 8px !important;
+        margin-top: 10px !important;
+    }
+
+}

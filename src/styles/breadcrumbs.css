@@ -1,0 +1,39 @@
+.bread-crumps-title {
+    color: #1A4BB3 !important;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+}
+
+.bread-crumps-title-active {
+    font-size: 18px;
+}
+
+@media (max-width: 800px) {
+    .bread-crumps-title {
+        font-size: 16px;
+    }
+
+    .bread-crumps-title-active {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .bread-crumps-title {
+        font-size: 14px;
+    }
+
+    .bread-crumps-title-active {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 460px) {
+    .bread-crumps-title {
+        font-size: 12px;
+    }
+
+    .bread-crumps-title-active {
+        font-size: 12px;
+    }
+}

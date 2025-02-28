@@ -1,0 +1,103 @@
+.main-cnt-erequest-service {
+    width: 90%;
+    max-width: 1400px;
+}
+
+.info_reguest_user {
+    background-color: #F5F5F5;
+    border: 3px solid rgba(213, 213, 213, .6);
+    width: 96%;
+    border-radius: 30px;
+}
+
+.description-reguest {
+    font-size: 18px;
+}
+
+.btn_reguest {
+    background: #1A4BB3;
+    border: none;
+    border-radius: 10px;
+    opacity: .76;
+    height: 30px;
+    width: 180px;
+}
+
+
+
+.my_reguest-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.success-reguest {
+    color: #6F9965;
+}
+.btn_go_to_service {
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    background-color: #1A4BB3;
+    border: 1px solid #1A4BB3;
+    &:hover {
+        background-color: #FFFFFF;
+        color: #1A4BB3;
+    }
+}
+.request-table{
+    max-width: 100%;
+}
+.size-table-text{
+    font-size: 16px;
+}
+
+@media (max-width: 900px) {
+    .size-table-text{
+        font-size: 14px;
+    }
+
+    .my_reguest-title{
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .size-table-text{
+        font-size: 12px;
+        padding: 2px !important;
+
+    }
+
+    .my_reguest-title{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 460px) {
+    .size-table-text{
+        font-size: 10px;
+        padding: 2px !important;
+
+    }
+
+    .my_reguest-title{
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .size-table-text{
+        font-size: 9px;
+        padding: 1px !important;
+
+    }
+
+    .my_reguest-title{
+        font-size: 14px;
+    }
+
+}

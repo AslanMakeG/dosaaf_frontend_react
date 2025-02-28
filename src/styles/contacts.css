@@ -1,0 +1,175 @@
+.main-cnt-contacts {
+    width: 90%;
+    max-width: 1400px;
+}
+
+.contacts-our-office {
+    background: #FFFFFF;
+}
+
+.cnt-mark {
+    background: #EAE9EF;
+    width: 40px;
+    height: 40px;
+}
+
+.cnt-label-info {
+    width: 60%;
+}
+
+.cnt-contacts-icon {
+    font-size: 25px;
+    color: #1A4BB3;
+    font-weight: 800;
+}
+
+.contact-title-section {
+    font-size: 20px;
+    color: #1A4BB3;
+    font-weight: 800;
+}
+
+.icon-label {
+    font-size: 18px;
+    color: #1A4BB3;
+}
+
+.label-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.label-desc {
+    font-size: 16px;
+}
+
+.contact-cnt-map {
+    background: #FFFFFF;
+}
+
+.contact-map {
+    width: 100%;
+    height: 450px;
+}
+
+@media (max-width: 850px) {
+    .cnt-contacts-icon {
+        font-size: 22px;
+    }
+
+    .contact-title-section {
+        font-size: 18px;
+    }
+
+    .icon-label {
+        font-size: 20px;
+        color: #1A4BB3;
+    }
+
+    .label-title {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .label-desc {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 767.9px) {
+    .contacts-our-office {
+        margin-top: 20px !important;
+    }
+
+    .contact-cnt-map {
+        margin-top: 20px !important;
+    }
+
+    .contact-title-section {
+        font-size: 22px;
+    }
+
+    .label-title {
+        font-size: 18px;
+    }
+
+    .label-desc {
+        font-size: 16px;
+    }
+
+    .contact-map {
+        width: 100%;
+        height: 350px;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-title-section {
+        font-size: 18px;
+    }
+
+    .label-title {
+        font-size: 16px;
+    }
+
+    .label-desc {
+        font-size: 14px;
+    }
+
+    .contact-map {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media (max-width: 460px) {
+    .contacts-our-office {
+        margin-top: 10px !important;
+    }
+
+    .contact-cnt-map {
+        margin-top: 10px !important;
+    }
+
+    .contact-title-section {
+        font-size: 14px;
+    }
+
+    .label-title {
+        font-size: 12px;
+    }
+
+    .label-desc {
+        font-size: 12px;
+    }
+
+    .cnt-mark {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact-map {
+        width: 100%;
+        height: 200px;
+    }
+
+    .cnt-contacts-icon {
+        font-size: 16px;
+    }
+
+    .icon-label {
+        font-size: 14px;
+        color: #1A4BB3;
+    }
+
+    .contacts-our-office {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .contact-cnt-map {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}

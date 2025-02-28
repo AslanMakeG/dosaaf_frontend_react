@@ -1,0 +1,182 @@
+.main-cnt-settings {
+    width: 90%;
+    max-width: 1400px;
+}
+
+.settings-change-contact-data {
+    background: #FFFFFF;
+    width: 70%;
+}
+
+.settings-title {
+    font-size: 20px;
+    font-weight: 800;
+    color: #1A4BB3;
+}
+
+.settings-title-icon {
+    font-size: 26px;
+    color: #1A4BB3;
+    -webkit-text-stroke: 0.3px;
+}
+
+.settings-contact-input {
+    width: 80%;
+    background-color: #FFFFFF;
+    border: 2px solid #1A4BB3;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.settings-name-titles {
+    font-size: 18px;
+}
+
+.btn-settings-save-changes {
+    background: #1A4BB3;
+    border: none;
+    width: 210px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn-change-password{
+    width: 180px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1.5px solid #1A4BB3;
+    border-radius: 10px;
+    color: #1A4BB3;
+
+    &:hover {
+        background-color: #1A4BB3;
+        border: 1.5px solid #1A4BB3;
+        color: #FFFFFF;
+    }
+}
+
+.mailing-agreement-title{
+    font-size: 18px;
+}
+
+@media (max-width: 1199.9px) {
+    .settings-change-contact-data {
+        width: 100%;
+    }
+    .settings-contact-input {
+        width: 90%;
+    }
+}
+
+@media (max-width: 991.9px) {
+    .settings-contact-input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .settings-title {
+        font-size: 18px;;
+    }
+    .settings-title-icon {
+        font-size: 22px;
+    }
+    .settings-name-titles {
+        font-size: 16px;
+    }
+    .mailing-agreement-title{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .settings-title {
+        font-size: 16px;;
+    }
+    .settings-title-icon {
+        font-size: 20px;
+    }
+    .settings-name-titles {
+        font-size: 14px;
+    }
+    .mailing-agreement-title{
+        font-size: 14px;
+    }
+    .btn-settings-save-changes {
+        height: 35px;
+        width: 180px;
+        font-size: 14px;
+    }
+    .btn-change-password{
+        width: 150px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .settings-contact-input {
+        height: 37px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 550px) {
+    .settings-title {
+        font-size: 14px;;
+    }
+    .settings-title-icon {
+        font-size: 18px;
+    }
+    .settings-name-titles {
+        font-size: 12px;
+        margin-top: 10px !important;
+    }
+    .mailing-agreement-title{
+        font-size: 12px;
+    }
+    .btn-settings-save-changes {
+        height: 30px;
+        width: 150px;
+        font-size: 12px;
+    }
+    .btn-change-password{
+        width: 125px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .settings-contact-input {
+        height: 30px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 460px) {
+    .settings-title {
+        font-size: 12px;;
+    }
+    .settings-title-icon {
+        font-size: 16px;
+    }
+    .settings-name-titles {
+        font-size: 10px;
+        margin-top: 10px !important;
+    }
+    .mailing-agreement-title{
+        font-size: 10px;
+    }
+    .btn-settings-save-changes {
+        height: 25px;
+        width: 150px;
+        font-size: 10px;
+    }
+    .btn-change-password{
+        width: 125px;
+        height: 25px;
+        font-size: 10px;
+    }
+    .settings-contact-input {
+        height: 25px;
+        font-size: 10px;
+        border: 1px solid #1A4BB3;
+    }
+}

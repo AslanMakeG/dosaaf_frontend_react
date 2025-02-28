@@ -1,0 +1,155 @@
+.main-cnt-testing {
+    width: 90%;
+    max-width: 1400px;
+}
+
+.test-card {
+
+    background-color: #FFFFFF;
+}
+
+.test-progress .progress-bar {
+    background: #1A4BB3;
+    /* Измените на нужный вам цвет заполненной области */
+}
+
+.test-progress {
+    height: 25px;
+    background-color: #EAE9EF;
+    /* Измените на нужный вам цвет незаполненной области */
+}
+
+.btn-go-to-test {
+    height: 35px;
+    width: 140px;
+    background-color: #1A4BB3;
+    border: none;
+    border-radius: 10px;
+}
+
+.title-test-card {
+    font-size: 18px;
+}
+
+.title-test-cart-icon {
+    font-size: 24px;
+    color: #1A4BB3;
+    -webkit-text-stroke: 0.3px;
+}
+
+.name-test-card {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.mastered-titile {
+    font-size: 18px;
+}
+
+.mastered-percent {
+    font-size: 18px;
+    color: #1A4BB3;
+    font-weight: 500;
+}
+
+@media (max-width:600px) {
+
+    .title-test-card {
+        font-size: 16px;
+    }
+
+    .title-test-cart-icon {
+        font-size: 20px;
+        color: #1A4BB3;
+        -webkit-text-stroke: 0.3px;
+    }
+
+    .name-test-card {
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 0px !important;
+
+    }
+
+    .mastered-titile {
+        font-size: 16px;
+        margin-top: 5px !important;
+    }
+
+    .mastered-percent {
+        font-size: 16px;
+        color: #1A4BB3;
+        font-weight: 500;
+        margin-top: 5px !important;
+    }
+
+    .test-progress {
+        height: 18px;
+        background-color: #EAE9EF;
+        /* Измените на нужный вам цвет незаполненной области */
+    }
+
+    .cnt-progress-bar {
+        margin-top: 5px !important;
+    }
+
+    .btn-go-to-test {
+        height: 32px;
+        width: 120px;
+        font-size: 14px;
+        margin-top: 15px !important;
+    }
+}
+
+@media (max-width:460px) {
+    .test-card {
+        padding: 10px !important;
+    }
+
+    .title-test-card {
+        font-size: 14px;
+    }
+
+    .title-test-cart-icon {
+        font-size: 18px;
+        color: #1A4BB3;
+        -webkit-text-stroke: 0.3px;
+    }
+
+    .name-test-card {
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 0px !important;
+
+    }
+
+    .mastered-titile {
+        font-size: 12px;
+        margin-top: 5px !important;
+    }
+
+    .mastered-percent {
+        font-size: 12px;
+        color: #1A4BB3;
+        font-weight: 500;
+        margin-top: 5px !important;
+    }
+
+    .test-progress {
+        height: 15px;
+        background-color: #EAE9EF;
+        /* Измените на нужный вам цвет незаполненной области */
+    }
+
+    .cnt-progress-bar {
+        margin-top: 5px !important;
+    }
+
+    .btn-go-to-test {
+        height: 28px;
+        width: 95px;
+        font-size: 12px;
+        margin-top: 15px !important;
+    }
+}

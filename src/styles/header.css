@@ -1,0 +1,59 @@
+body {
+    background: #F2F3F7;
+    overflow-x: hidden;
+}
+
+.btn_nav {
+    background: #1A4BB3;
+    border: none;
+    border-radius: 10px;
+    min-width: 100px;
+
+}
+
+.list_item:hover {
+    color: #1A4BB3;
+}
+
+button.navbar-toggler {
+    background: white;
+}
+
+.list_item.collapse {
+    color: aqua;
+}
+
+.logo-brand{
+    width: 60px;
+    height: 60px;
+}
+
+@media (max-width: 991px) {
+    .list_item {
+        margin-left: 5px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .label-brand{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo-brand{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 350px) {
+    .logo-brand{
+        width: 35px;
+        height: 35px;
+    }
+
+    .label-brand{
+        font-size: 14px;
+    }
+}

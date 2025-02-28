@@ -1,0 +1,161 @@
+.sidebar-sh {
+    /* box-shadow: 0px 20px 30px rgba(180, 195, 227, 100); */
+    border-radius: 15px;
+    /* border: 0.5px solid rgba(180, 195, 227, .6); */
+
+}
+
+.nav-pills li a:hover {
+    background-color: #EAE9EF;
+
+
+}
+
+.sid {
+    position: sticky;
+    top: 0;
+}
+
+.text-sidebar {
+    font-size: 18px;
+}
+
+.icon-sidebar {
+    font-size: 18px;
+    color: #1A4BB3;
+    -webkit-text-stroke: 0.3px;
+}
+
+@media (max-width: 1199.9px) {
+    .text-sidebar {
+        font-size: 16px;
+    }
+
+    .icon-sidebar {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1180.9px) {
+    .text-sidebar {
+        font-size: 14px;
+    }
+
+    .icon-sidebar {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991.9px) {
+    .text-sidebar {
+        font-size: 18px;
+    }
+
+    .icon-sidebar {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 850px) {
+    .text-sidebar {
+        font-size: 16px;
+    }
+
+    .icon-sidebar {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 800px) {
+    .text-sidebar {
+        font-size: 16px;
+    }
+
+    .icon-sidebar {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767.9px) {
+    .text-sidebar {
+        font-size: 24px;
+    }
+
+    .icon-sidebar {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .text-sidebar {
+        font-size: 20px;
+    }
+
+    .icon-sidebar {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .text-sidebar {
+        font-size: 16px;
+    }
+
+    .icon-sidebar {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 460px) {
+    .text-sidebar {
+        font-size: 14px;
+    }
+
+    .icon-sidebar {
+        font-size: 14px;
+    }
+}
+
+@media (max-height: 440px) {
+    .cnt-names-sect {
+        margin-top: 0px !important;
+    }
+
+    .hr-with-out {
+        margin: 0 !important;
+    }
+
+    .text-sidebar {
+        font-size: 14px;
+    }
+
+    .icon-sidebar {
+        font-size: 14px;
+    }
+
+    .cnt-icon-text-sidebar {
+        padding-top: 5px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .cnt-names-sect {
+        margin-top: 0px !important;
+    }
+
+    .hr-with-out {
+        margin: 0 !important;
+    }
+
+    .text-sidebar {
+        font-size: 14px;
+    }
+
+    .icon-sidebar {
+        font-size: 14px;
+    }
+
+    .cnt-icon-text-sidebar {
+        padding: 0 !important;
+    }
+}

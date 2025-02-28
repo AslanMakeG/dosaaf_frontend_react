@@ -1,0 +1,189 @@
+.main-cnt-admin-testing {
+    width: 90%;
+    max-width: 1400px;
+}
+
+.admin-card-test {
+    background: #FFFFFF;
+}
+
+.cnt-admin-name-test {
+    height: 70px;
+}
+
+.admin-name-card-test {
+    font-size: 18px;
+    -webkit-line-clamp: 2;
+    /* Число отображаемых строк */
+    display: -webkit-box;
+    /* Включаем флексбоксы */
+    -webkit-box-orient: vertical;
+    /* Вертикальная ориентация */
+    overflow: hidden;
+    /* Обрезаем все, что не помещается в область */
+}
+
+.card-test-count-questions {
+    font-size: 18px;
+}
+
+.btn-admin-test-card-edit {
+    border-radius: 10px;
+    height: 37px;
+    width: 45%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #1A4BB3;
+    color: #1A4BB3;
+
+    &:hover {
+        background-color: #1A4BB3;
+        border: 1.5px solid #1A4BB3;
+        color: #FFFFFF;
+    }
+}
+
+.btn-admin-test-card-delete {
+    border-radius: 10px;
+    height: 37px;
+    width: 45%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #DA3232;
+    color: #DA3232;
+
+    &:hover {
+        background-color: #DA3232;
+        border: 1.5px solid #DA3232;
+        color: #FFFFFF;
+    }
+}
+
+.test-card-btn-icon {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .cnt-admin-name-test {
+        height: 60px;
+    }
+
+    .admin-name-card-test {
+        font-size: 16px;
+    }
+
+    .card-test-count-questions {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 991.9px) {
+    .cnt-admin-name-test {
+        height: 70px;
+    }
+
+    .admin-name-card-test {
+        font-size: 18px;
+    }
+
+    .card-test-count-questions {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .cnt-admin-name-test {
+        height: 60px;
+    }
+
+    .admin-name-card-test {
+        font-size: 14px;
+    }
+
+    .card-test-count-questions {
+        font-size: 14px;
+    }
+
+    .test-card-btn-text {
+        font-size: 14px;
+    }
+
+    .btn-admin-test-card-edit {
+        height: 35px;
+        width: 45%;
+    }
+    .btn-admin-test-card-delete {
+        height: 32px;
+        width: 45%;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .btn-admin-test-card-edit {
+        height: 32px;
+        width: 60px;
+    }
+    .btn-admin-test-card-delete {
+        height: 32px;
+        width: 60px;
+    }
+    .test-card-btn-icon {
+        display: contents;
+    }
+
+    .test-card-btn-text {
+        display: none;
+    }
+    .admin-card-test{
+        padding: 20px !important;
+        margin-bottom: 10px !important;
+    }
+}
+
+@media (max-width: 460px) {
+    .cnt-admin-name-test {
+        height: 40px;
+    }
+
+    .admin-name-card-test {
+        font-size: 10px;
+    }
+
+    .card-test-count-questions {
+        font-size: 10px;
+    }
+
+    .test-card-btn-text {
+        font-size: 12px;
+    }
+    .btn-admin-test-card-edit {
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+    }
+    .btn-admin-test-card-delete {
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+
+    }
+    .test-card-btn-icon {
+        display: contents;
+        font-size: 12px;
+    }
+
+    .test-card-btn-text {
+        display: none;
+    }
+
+    .admin-card-test{
+        padding: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .cols-test-cards{
+        margin-top: 10px !important;
+    }
+
+}

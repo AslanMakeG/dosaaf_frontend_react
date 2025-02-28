@@ -1,0 +1,133 @@
+.main-cnt-autorization {
+    width: 90%;
+    max-width: 1400px;
+}
+
+.form_registration {
+    background-color: #FDFDFD;
+    width: 500px;
+    box-shadow: 0px 30px 60px rgba(143, 162, 202, 100);
+    border-radius: 20px;
+}
+
+.registration-logo {
+    width: 80px;
+    height: 80px;
+}
+
+.control_input {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #1A4BB3;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.btn_registration {
+    width: 200px;
+    background: #1A4BB3;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+
+}
+
+.link_login {
+    color: #1A4BB3;
+    text-decoration: none;
+}
+
+.btn_login {
+    width: 100px;
+    background: #1A4BB3;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+
+}
+
+.btn_get_code_recovery {
+    width: 180px;
+    background: #1A4BB3;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.email-activate-instruction {
+    font-size: 18px;
+    color: #1A4BB3;
+}
+
+.organization-name-title {
+    font-size: 16px;
+}
+
+.entrance-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+
+    .registration-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .form_registration {
+        width: 90%;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .control_input {
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .organization-name-title {
+        font-size: 14px;
+    }
+
+    .entrance-title {
+        font-size: 22px;
+    }
+
+    .link_login {
+        font-size: 14px;
+    }
+
+    .btn_login {
+        font-size: 14px;
+        width: 100px;
+        height: 35px;
+    }
+
+    .btn_registration {
+        font-size: 14px;
+        height: 35px;
+
+    }
+
+    .btn_get_code_recovery {
+        font-size: 14px;
+        height: 35px;
+    }
+
+}
+
+@media (max-width: 460px) {
+
+    .form_registration {
+        width: 100%;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .btn_registration {
+        margin-top: 0px !important;
+
+    }
+
+}

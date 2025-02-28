@@ -1,0 +1,404 @@
+.main-cnt-request-admin {
+    width: 90%;
+    max-width: 1400px;
+}
+
+.btn-new-requests {
+    width: 33.3%;
+    background: #FFFFFF;
+    border: 1px solid #1A4BB3;
+    border-radius: 10px 0px 0px 10px;
+    color: #1A4BB3;
+    font-size: 18px;
+    height: 70px;
+}
+
+
+.btn-accepted-requests {
+    width: 33.3%;
+    background: #FFFFFF;
+    border: 1px solid #1A4BB3;
+    border-radius: 0px 0px 0px 0px;
+    color: #1A4BB3;
+    font-size: 18px;
+    height: 70px;
+}
+
+.btn-rejected-requests {
+    width: 33.3%;
+    background: #FFFFFF;
+    border: 1px solid #1A4BB3;
+    border-radius: 0px 10px 10px 0px;
+    color: #1A4BB3;
+    font-size: 18px;
+    height: 70px;
+}
+
+
+
+.cont-new-requests {
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.btn-accept-request {
+    width: 150px;
+    background: #1A4BB3;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.btn-reject-request {
+    width: 150px;
+    background: #DA3232;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.cont-accept-requests {
+    background: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+.cont-reject-requests {
+    background: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+@media (max-width: 991.9px) {
+    .btn-new-requests {
+        font-size: 16px;
+        height: 60px;
+    }
+
+    .btn-accepted-requests {
+        font-size: 16px;
+        height: 60px;
+    }
+
+    .btn-rejected-requests {
+        font-size: 16px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 600.9px) {
+    .btn-new-requests {
+        font-size: 14px;
+        height: 50px;
+        padding: 5px !important;
+    }
+
+    .btn-accepted-requests {
+        font-size: 14px;
+        height: 50px;
+        padding: 5px !important;
+    }
+
+    .btn-rejected-requests {
+        font-size: 14px;
+        height: 50px;
+        padding: 5px !important;
+    }
+
+    .btn-accept-request {
+        width: 45%;
+        font-size: 14px;
+        height: 35px;
+    }
+
+    .btn-reject-request {
+        width: 45%;
+        font-size: 14px;
+        height: 35px;
+        margin-left: 0px !important;
+    }
+
+    .cont-new-requests {
+        padding: 20px !important;
+    }
+
+    .cont-accept-requests {
+        padding: 20px !important;
+    }
+
+    .cont-reject-requests {
+        padding: 20px !important;
+    }
+
+    .admin-reguest-descr-admin {
+        font-size: 14px;
+        margin-bottom: 10px !important;
+    }
+
+    .admin-reguest-req-admin {
+        font-size: 14px;
+        margin-bottom: 15px !important;
+    }
+}
+
+@media (max-width: 460.9px) {
+    .btn-new-requests {
+        font-size: 12px;
+        height: 50px;
+        padding: 5px !important;
+    }
+
+    .btn-accepted-requests {
+        font-size: 12px;
+        height: 50px;
+        padding: 5px !important;
+    }
+
+    .btn-rejected-requests {
+        font-size: 12px;
+        height: 50px;
+        padding: 0px !important;
+
+    }
+
+    .btn-accept-request {
+        width: 45%;
+        font-size: 12px;
+        height: 35px;
+    }
+
+    .btn-reject-request {
+        width: 45%;
+        font-size: 12px;
+        height: 35px;
+    }
+
+    .admin-reguest-req-admin {
+        font-size: 14px;
+        margin-bottom: 15px !important;
+    }
+
+    .admin-reguest-descr-admin {
+        font-size: 12px;
+        margin-bottom: 10px !important;
+    }
+}
+
+.btn-accepted-requests {
+    width: 33.3%;
+    background: #FFFFFF;
+    border: 1px solid #1A4BB3;
+    border-radius: 0px 0px 0px 0px;
+    color: #1A4BB3;
+    font-size: 18px;
+    height: 70px;
+}
+
+.btn-rejected-requests {
+    width: 33.3%;
+    background: #FFFFFF;
+    border: 1px solid #1A4BB3;
+    border-radius: 0px 10px 10px 0px;
+    color: #1A4BB3;
+    font-size: 18px;
+    height: 70px;
+}
+
+
+
+.cont-new-requests {
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.btn-accept-request {
+    width: 150px;
+    background: #1A4BB3;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.btn-reject-request {
+    width: 150px;
+    background: #DA3232;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.cont-accept-requests {
+    background: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+.cont-reject-requests {
+    background: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+@media (max-width: 991.9px) {
+    .btn-new-requests {
+        font-size: 16px;
+        height: 60px;
+    }
+
+    .btn-accepted-requests {
+        font-size: 16px;
+        height: 60px;
+    }
+
+    .btn-rejected-requests {
+        font-size: 16px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    .btn-new-requests {
+        font-size: 14px;
+        height: 50px;
+        padding: 5px !important;
+    }
+
+    .btn-accepted-requests {
+        font-size: 14px;
+        height: 50px;
+        padding: 5px !important;
+    }
+
+    .btn-rejected-requests {
+        font-size: 14px;
+        height: 50px;
+        padding: 5px !important;
+    }
+
+    .btn-accept-request {
+        width: 45%;
+        font-size: 14px;
+        height: 35px;
+    }
+
+    .btn-reject-request {
+        width: 45%;
+        font-size: 14px;
+        height: 35px;
+        margin-left: 0px !important;
+    }
+
+    .cont-new-requests {
+        padding: 20px !important;
+    }
+
+    .cont-accept-requests {
+        padding: 20px !important;
+    }
+
+    .cont-reject-requests {
+        padding: 20px !important;
+    }
+
+    .admin-reguest-descr-admin {
+        font-size: 14px;
+        margin-bottom: 10px !important;
+    }
+
+    .admin-reguest-req-admin {
+        font-size: 14px;
+        margin-bottom: 15px !important;
+    }
+}
+
+@media (max-width: 460px) {
+    .btn-new-requests {
+        font-size: 11px;
+        height: 50px;
+        padding: 5px !important;
+    }
+
+    .btn-accepted-requests {
+        font-size: 11px;
+        height: 50px;
+        padding: 5px !important;
+    }
+
+    .btn-rejected-requests {
+        font-size: 11px;
+        height: 50px;
+        padding: 5px !important;
+    }
+
+    .cont-new-requests {
+        margin-top: 15px !important;
+    }
+
+    .cont-accept-requests {
+        margin-top: 15px !important;
+    }
+
+    .cont-reject-requests {
+        margin-top: 15px !important;
+    }
+
+
+}
+
+@media (max-width: 370px) {
+    .btn-new-requests {
+        font-size: 10px;
+        height: 40px;
+        padding: 5px !important;
+    }
+
+    .btn-accepted-requests {
+        font-size: 10px;
+        height: 40px;
+        padding: 5px !important;
+    }
+
+    .btn-rejected-requests {
+        font-size: 10px;
+        height: 40px;
+        padding: 0px !important;
+
+    }
+
+    .admin-reguest-descr-admin {
+        font-size: 12px;
+        margin-bottom: 5px !important;
+    }
+
+    .admin-reguest-req-admin {
+        font-size: 12px;
+        margin-bottom: 7px !important;
+    }
+
+    .btn-accept-request {
+        width: 45%;
+        font-size: 12px;
+        height: 35px;
+    }
+
+    .btn-reject-request {
+        width: 45%;
+        font-size: 12px;
+        height: 35px;
+        margin-left: 0px !important;
+    }
+
+    .cont-new-requests {
+        padding: 10px !important;
+    }
+
+    .cont-accept-requests {
+        padding: 10px !important;
+    }
+
+    .cont-reject-requests {
+        padding: 10px !important;
+    }
+
+
+}

@@ -1,0 +1,155 @@
+.main-cnt-panel-admin {
+    width: 90%;
+    max-width: 1400px;
+}
+
+
+.info-panel-admin {
+    background: #EAE9EF;
+    min-height: 150px;
+    height: 100%;
+}
+
+.function-panel-admin {
+    background: #FFFFFF;
+    height: 120px;
+    margin-top: 20px !important;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+
+    &:hover {
+
+        border: 3px solid #1A4BB3;
+    }
+}
+
+.cnt-info-icon-panel-admin {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: #1A4BB3;
+}
+
+.cnt-info-text-panel-admin {
+    margin-left: 15px;
+}
+
+.title-info-panel-admin {
+    font-size: 22px;
+    font-weight: 800;
+    color: #1A4BB3;
+}
+
+.description-info-panel-admin {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.icon-cnt-info-panel-admin {
+    font-size: 28px;
+    color: #1A4BB3;
+}
+
+.name-cnt-info-panel-admin {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.link_panel_admin_function {
+    text-decoration: none;
+}
+
+@media (max-width: 1290px) {
+    .info-panel-admin {
+        padding: 15px !important;
+    }
+
+    .title-info-panel-admin {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 991.9px) {
+
+    .info-panel-admin {
+        padding: 20px !important;
+        min-height: 70px !important;
+        height: 100px;
+        margin-bottom: 20px;
+        width: 80%;
+        margin-left: 0px;
+    }
+
+    .title-info-panel-admin {
+        font-size: 20px;
+    }
+
+    .row-fnct-pan-ad {
+        margin-top: 0px !important;
+    }
+
+    .function-panel-admin {
+        padding: 20px !important;
+        height: 100px;
+    }
+
+    .icon-cnt-info-panel-admin {
+        font-size: 24px;
+        color: #1A4BB3;
+    }
+
+    .name-cnt-info-panel-admin {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .info-panel-admin {
+        padding: 10px !important;
+        min-height: 50px !important;
+        height: 70px;
+        width: 90%;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .title-info-panel-admin {
+        font-size: 12px;
+    }
+
+    .cnt-info-icon-panel-admin {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+
+    }
+    .description-info-panel-admin {
+        font-size: 12px;
+
+    }
+
+    .function-panel-admin {
+        padding: 10px !important;
+        height: 60px;
+        margin-top: 10px !important;
+    }
+
+    .icon-cnt-info-panel-admin {
+        font-size: 16px;
+        color: #1A4BB3;
+    }
+
+    .name-cnt-info-panel-admin {
+        font-size: 12px;
+        margin-left: 12px;
+    }
+}

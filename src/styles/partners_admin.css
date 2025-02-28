@@ -1,0 +1,250 @@
+.main-cnt-partners-admin {
+    width: 90%;
+    max-width: 1400px;
+}
+
+.btn-admin-partner {
+    background: #1A4BB3;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+}
+
+.title-add-partner {
+    font-size: 20px;
+}
+
+.partner-card {
+    background-color: #FFFFFF;
+}
+
+.cnt-photo-partner {
+    width: 60%;
+    background-color: #FFFFFF;
+    aspect-ratio: 1;
+    position: relative;
+}
+
+.titles-partner-card {
+    color: #1A4BB3;
+    font-size: 18px;
+}
+
+.name-partner-card {
+    font-size: 16px;
+}
+
+.btn-edit-partner {
+    width: 45%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #1A4BB3;
+    color: #1A4BB3;
+
+    &:hover {
+        background-color: #1A4BB3;
+        border: 1.5px solid #1A4BB3;
+        color: #FFFFFF;
+    }
+}
+
+.btn-delete-partner {
+    width: 45%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #DA3232;
+    color: #DA3232;
+
+    &:hover {
+        background-color: #DA3232;
+        border: 1.5px solid #DA3232;
+        color: #FFFFFF;
+    }
+}
+
+.photo-admin-partner {
+    width: 100%;
+    /* Гибкость – наше всё */
+    height: 100%;
+    /* Доверьтесь автоматике */
+    object-fit: contain;
+    /* Исключаем искажения пропорций */
+}
+
+.partner-modal-title {
+    color: #1A4BB3;
+}
+
+.partner-name-control-input {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1.5px solid #1A4BB3;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.form-input-logo-partner {
+    width: 300px;
+    background-color: #EAE9EF;
+    height: 300px;
+    position: relative;
+    border: 2px dashed #1A4BB3;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.btn_form_partner {
+    width: 40%;
+    background-color: #1A4BB3;
+    border: 1.5px solid #1A4BB3;
+    color: #FFFFFF;
+}
+
+.upload_icon {
+    color: #1A4BB3;
+    font-size: 30px;
+}
+
+.icon_image_partner {
+    font-size: 25px;
+    color: #1A4BB3;
+}
+
+.icon_trash_partner {
+    cursor: pointer;
+    font-size: 25px;
+    color: #DA3232;
+}
+
+.name-photo-partner {
+    font-size: 18px;
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    /* Запрещаем перенос строк */
+    overflow: hidden;
+    /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis;
+    /* Добавляем многоточие */
+}
+
+.cnt-name-file-partner {
+    width: 70%;
+}
+
+@media (max-width: 1180.9px) {
+    .titles-partner-card {
+        font-size: 16px;
+    }
+
+    .name-partner-card {
+        font-size: 14px;
+    }
+
+    .btn-delete-partner {
+        font-size: 16px;
+    }
+    .btn-edit-partner {
+        font-size: 16px;
+    }
+
+ 
+}
+@media (max-width: 991.9px) {
+    .titles-partner-card {
+        font-size: 20px;
+    }
+
+    .name-partner-card {
+        font-size: 20px;
+    }  
+}
+@media (max-width: 850px) {
+    .titles-partner-card {
+        font-size: 16px;
+    }
+
+    .name-partner-card {
+        font-size: 14px;
+    }
+
+    .btn-delete-partner {
+        font-size: 16px;
+    }
+    .btn-edit-partner {
+        font-size: 16px;
+    }
+    .title-add-partner {
+        font-size: 18px;
+    }
+    .btn-admin-partner {
+        font-size: 16px;
+        height: 35px;
+        width: 100px;
+    }    
+}
+@media (max-width: 767.9px) {
+    .titles-partner-card {
+        font-size: 18px;
+    }
+
+    .name-partner-card {
+        font-size: 16px;
+    }
+  
+}
+
+@media (max-width: 600px) {
+    .titles-partner-card {
+        font-size: 14px;
+    }
+
+    .name-partner-card {
+        font-size: 14px;
+    }
+
+    .btn-delete-partner {
+        font-size: 12px;
+    }
+    .btn-edit-partner {
+        font-size: 12px;
+    }
+    .title-add-partner {
+        font-size: 14px;
+    }
+    .btn-admin-partner {
+        font-size: 12px;
+        height: 30px;
+        width: 80px;
+    }  
+}
+
+@media (max-width: 460px) {
+    .titles-partner-card {
+        font-size: 12px;
+    }
+
+    .name-partner-card {
+        font-size: 12px;
+    }
+
+    .btn-delete-partner {
+        font-size: 10px;
+    }
+    .btn-edit-partner {
+        font-size: 10px;
+    }
+    .title-add-partner {
+        font-size: 12px;
+    }
+    .btn-admin-partner {
+        font-size: 10px;
+        height: 25px;
+        width: 70px;
+    }  
+    .partner-card{
+        margin-top: 10px !important;
+    }
+}
+

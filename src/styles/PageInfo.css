@@ -1,0 +1,171 @@
+.info-page-cnt {
+    background-color: #EAE9EF;
+    border-radius: 20px;
+}
+
+.description-page-info {
+    font-size: 17px;
+}
+
+.title-page-info {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn_info_page {
+    width: 270px;
+    padding: 2px;
+    height: 45px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    background-color: #1A4BB3;
+    border: 1px solid #1A4BB3;
+
+    &:hover {
+        background-color: #FFFFFF;
+        color: #1A4BB3;
+    }
+}
+
+.page-info-img {
+    width: 80px;
+    height: 80px;
+}
+
+@media (max-width: 1199.9px) {
+    .title-page-info {
+        font-size: 18px;
+    }
+
+    .description-page-info {
+        font-size: 16px;
+    }
+
+    .btn_info_page {
+        font-size: 16px;
+    }
+
+    .page-info-img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .info-page-cnt {
+        padding: 20px !important;
+    }
+}
+
+@media (max-width: 991.9px) {
+    .title-page-info {
+        font-size: 16px;
+    }
+
+    .description-page-info {
+        font-size: 14px;
+    }
+
+    .info-page-cnt {
+        padding: 10px !important;
+    }
+
+    .btn_info_page {
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .page-info-img {
+        width: 60px;
+        height: 60px;
+        margin: 5px !important;
+    }
+}
+
+@media (max-width:850px) {
+    .title-page-info {
+        font-size: 16px;
+    }
+
+    .description-page-info {
+        font-size: 14px;
+    }
+
+    .info-page-cnt {
+        padding: 10px !important;
+    }
+
+    .btn_info_page {
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .page-info-img {
+        width: 50px;
+        height: 50px;
+        margin: 5px !important;
+    }
+}
+@media (max-width:600px) {
+
+    .description-page-info {
+        font-size: 12px;
+    }
+    
+}
+@media (max-width:550px) {
+
+    .title-page-info {
+        font-size: 14px;
+    }
+
+    .description-page-info {
+        font-size: 12px;
+    }
+
+    .info-page-cnt {
+        padding: 10px !important;
+    }
+
+    .btn_info_page {
+        width: 150px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .page-info-img {
+        width: 35px;
+        height: 35px;
+        margin: 1px !important;
+    }
+    
+}
+
+
+@media (max-width:460px) {
+
+    .title-page-info {
+        font-size: 12px;
+    }
+
+    .description-page-info {
+        font-size: 10px;
+    }
+
+    .info-page-cnt {
+        padding: 10px !important;
+    }
+
+    .btn_info_page {
+        width: 135px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .page-info-img {
+        width: 25px;
+        height: 25px;
+        margin: 1px !important;
+    }
+    
+}
